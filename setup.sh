@@ -10,7 +10,7 @@ if ! command -v pacman &>/dev/null; then
   exit 1
 fi
 
-verifypacman=(qt5ct qt6ct papirus-icon-theme catppuccin-gtk-theme-mocha ttf-jetbrains-mono-nerd)
+verifypacman=(qt5ct qt6ct papirus-icon-theme catppuccin-gtk-theme-mocha ttf-jetbrains-mono-nerd frameworkintegration)
 verifyaur=(darkly-bin)
 notpacman=()
 notaur=()
